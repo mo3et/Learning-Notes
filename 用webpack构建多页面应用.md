@@ -154,3 +154,8 @@ module.exports = app.listen(8080, function(err) {
 ```
 
 运行 `npm run dev`，然后在浏览器访问localhost:8080/各个页面，你应该可以看到想要的结果。
+
+&emsp;
+&emsp;
+
+## Tips: Or Read Knowledge about `url rewrite`
