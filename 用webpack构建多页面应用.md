@@ -1,3 +1,5 @@
+## 用webpack构建多页面应用
+
 关于webpack的配置和使用，网上已经有许多文章了，大多是在讲单页应用，当我们需要打包多个html时，事情就变得麻烦起来。怎么在webpack-dev-server里使用路由？怎么打包多个html和js并自动更新md5？本文讲的就是如何解决这些问题。
 
 >  这里假设你对Webpack已经有最基础的了解
@@ -158,4 +160,4 @@ module.exports = app.listen(8080, function(err) {
 &emsp;
 &emsp;
 
-## Tips: Or Read Knowledge about `url rewrite`
+>### Tips: Or Read Knowledge about `url rewrite`
