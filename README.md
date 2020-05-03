@@ -1,4 +1,35 @@
 # Learning-Note
+tutorial  教程; 辅导材料; 使用说明书  
+## About Yarn
+安装yarn：
+> 'npm install -g yarn'  
+切换淘宝镜像：
+> 'yarn config set registry  https://registry.npm.taobao.org'
+
+[Yarn中文文档](https://yarn.bootcss.com/)  
+[Yarn常用指令](https://yarn.bootcss.com/docs/usage/)
+#### Yarn指令：**[package]的括号可省略,例：@vue/cli**
+#### 最常用
+更改路径配置（换成淘宝镜像）   `yarn config set registry https://registry.npm.taobao.org`
+初始化           yarn init  
+安装依赖          yarn install 或者 yarn   
+新增依赖          yarn add `[package]` or yarn add`[package]@[version]` or `yarn add [package] --dev`（package 可省略） 
+删除依赖          yarn remove  `[package]`
+更新依赖          yarn upgrade  `[package]` or  `yarn upgrade [package]@[version]`
+全局安装或删除     yarn global remove  `[package]`
+同时下载多个       yarn add `[package1]` `[package2]`    
+运行脚本           yarn run  or yarn test  
+##### Package 缓存
+列出每个缓存的包    yarn cache ls  
+清除本地缓存       yarn cache clean
+##### yarn配置文件
+列出所有配置项   yarn config list  
+显示某项配置的值   yarn config get xxx 
+修改配置    yarn config set xxx xxx 
+删除配置   yarn config delete xxx 
+
+**显示包信息**  yarn info React
+
 
 ## About Git
 git clone  Https://github.com/xxxxxx   
