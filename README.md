@@ -17,7 +17,7 @@ tutorial  教程; 辅导材料; 使用说明书
 | 安装依赖*  |       yarn install 或者 yarn  
 |新增依赖*  |       yarn add `[package]`  
 |新增依赖(带版本号) | yarn add`[package]@[version]`  
-a| or   `yarn add [package] --dev`
+ | or   `yarn add [package] --dev`
 | 删除依赖*   |       yarn remove  `[package]`  
 | 更新依赖*    |      yarn upgrade  `[package]` or  `yarn upgrade [package]@[version]`  
 | 全局安装或删除*   |  yarn global remove  `[package]`  
