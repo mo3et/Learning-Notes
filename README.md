@@ -11,23 +11,28 @@ tutorial  教程; 辅导材料; 使用说明书
 #### Yarn指令：**[package]的括号可省略,例：@vue/cli**
 #### 最常用
 更改路径配置（换成淘宝镜像）   `yarn config set registry https://registry.npm.taobao.org`  
-|操作  |  对应指令（标* 表示package 可省略） |
+|操作  |  对应指令（标* 表示package 可省略）(需要全局加global)  |
 |:----------|:------------|
 | 初始化*    |       yarn init    
-| 安装依赖*  |       yarn install 或者 yarn  
-|新增依赖*  |       yarn add `[package]`  
+| 安装依赖*  |       yarn install  &emsp;or&emsp;  yarn  
+|启动create-react-app脚手架的服务器 |yarn start   &emsp;&emsp;等同 npm run dev
+| 打包生成create-react-app的生产文件 |yarn build
+|新增依赖(安装)*  |       yarn add `[package]`  
+|新增全局依赖(安装)*  |       yarn global add `[package]`  
 |新增依赖(带版本号) | yarn add`[package]@[version]`  
- | or   `yarn add [package] --dev`
-| 删除依赖*   |       yarn remove  `[package]`  
+ | |    `yarn add [package] --dev`
+| 删除依赖*   |       yarn remove  `[package]` (需要全局加global) 
 | 更新依赖*    |      yarn upgrade  `[package]` or  `yarn upgrade [package]@[version]`  
-| 全局安装或删除*   |  yarn global remove  `[package]`  
+| 全局安装或删除*   |  yarn global remove  `[package]`
+|发布包到npm资源库 | yarn publish
+|启动create-react-app脚手架的服务器 |yarn start 
 | 同时下载多个    |   yarn add `[package1]` `[package2]`      
 | 运行脚本      |     yarn run  or yarn test   
 |列出每个缓存的包 |   yarn cache ls  
 |清除本地缓存   |    yarn cache clean
 |列出所有配置项  |   yarn config list  
 |显示某项配置的值 |   yarn config get xxx 
-|修改配置     |       yarn config set xxx xxx 
+|修改配置     |       yarn config set [key] [value] 
 |删除配置     |       yarn config delete xxx 
 |**显示包信息**    | yarn info React
 
