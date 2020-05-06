@@ -23,6 +23,8 @@ tutorial  教程; 辅导材料; 使用说明书
  | |    `yarn add [package] --dev`
 | 删除依赖*   |       yarn remove  `[package]` (需要全局加global) 
 | 更新依赖*    |      yarn upgrade  `[package]` or  `yarn upgrade [package]@[version]`  
+|更新项目依赖，有交互!!!!|yarn upgrade-interactive  --latest
+|更新全局依赖，有交互!!!!!!!	|yarn global upgrade-interactive  --latest
 | 全局安装或删除*   |  yarn global remove  `[package]`
 |发布包到npm资源库 | yarn publish
 |启动create-react-app脚手架的服务器 |yarn start 
