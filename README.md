@@ -17,7 +17,7 @@ tutorial  教程; 辅导材料; 使用说明书
 |操作  |  对应指令（标* 表示package 可省略）(需要全局加global)  |
 |:----------|:------------|
 | 初始化*    |       yarn init    
-| 安装依赖*  |       yarn install  &emsp;or&emsp;  yarn  
+| 安装依赖*  |       yarn  or  yarn install  <!--   &emsp; -->
 |启动create-react-app脚手架的服务器 |yarn start   &emsp;&emsp;等同 npm run dev
 | 打包生成create-react-app的生产文件 |yarn build
 |新增依赖(安装)*  |       yarn add `[package]`  
