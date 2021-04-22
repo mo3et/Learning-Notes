@@ -1,5 +1,8 @@
 # Learning-Note
 tutorial  教程; 辅导材料; 使用说明书  
+
+## Markdown 教程链接
+[Markdown编辑器语法指南 - SegmentFault 思否](https://segmentfault.com/markdown)
 ## About Yarn Tutorial
 安装yarn：
 > 'npm install -g yarn'  
