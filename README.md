@@ -72,6 +72,27 @@ git pull --rebase origin master
 pull 这条指令的意思是把远程库中的更新合并到本地库中，–rebase的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中
 
 git pull –rebase origin master意为先取消commit记录，并且把它们临时 保存为补丁(patch)(这些补丁放到”.git/rebase”目录中)，之后同步远程库到本地，最后合并补丁到本地库之中。
+  
+描述：查询 git所有配置列表  
+语法：git config --list
+
+描述：查询 git用户配置列表  
+语法：git config --global --list
+
+描述：查询 git用户名  
+语法：git config user.name
+
+描述：查询 git用户邮箱  
+语法：git config user.email
+
+描述：设置 git用户名  
+语法：git config --global user.name shimh
+
+描述：设置 git用户邮箱  
+语法：git config --global user.email shimuhong@126.com
+
+描述：删除 git用户名  
+语法：git config --global --unset user.name
 
 # Markdown 教程
 如果你只想高亮语句中的某个函数名或关键字，可以使用 
