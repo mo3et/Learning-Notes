@@ -11,7 +11,7 @@ git branch -a  查看远程分支，例如：
 remotes/origin/main  
 remotes/origin/week1  
 选择要的分支  
--  git checkout -b  <branch>  origin/<barnch>  （Branch例如是week1）
+-  git checkout -b  《branch name》<branch>  origin/<barnch>《branch name》  （Branch例如是week1）
 
 --------
 All tips:
