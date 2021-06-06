@@ -5,24 +5,29 @@ tags: ["Git"]
 
 # Git Help
 
-### 如何Clone所有Branch
+- 查看本地分支和跟踪情况
+
+> `git remote show origin`
+
+- 清除多余分支
+
+>  `git remote prune origin`
+
+- 刷新分支列表
+
+> `git remote update origin --prune`
+
+- 删除远程已经merge的branch
+
+> `git push origin --delete  <branch>` <branch>为具体的分支名
+
+-------------
+
+#### 如何Pull其他Branch
 
 git branch -a  查看远程分支，例如：  
-remotes/origin/main  
-remotes/origin/week1  
-选择要的分支  
--  git checkout -b  <branch>  origin/<barnch>  （Branch例如是week1）
+`remotes/origin/main  
+remotes/origin/week1`  
+选择需要Pull的分支  
 
---------
-All tips:
-1. 找一个干净目录，假设是git_work
-2. cd git_work
-3. git clone http://myrepo.xxx.com/project/.git ,这样在git_work目录下得到一个project子目录
-4. cd project
-5. git branch -a，列出所有分支名称如下：
-remotes/origin/dev
-remotes/origin/release
-6. git checkout -b dev origin/dev，作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev分支
-7. git checkout -b release origin/release，作用参见上一步解释
-8. git checkout dev，切换回dev分支，并开始开发。
----------
+`git checkout -b  <branch>  origin/<barnch>`  （Branch例如是week1）
