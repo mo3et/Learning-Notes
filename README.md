@@ -1,4 +1,4 @@
-# Learning-Note
+# Learning-Notes
 tutorial  教程; 辅导材料; 使用说明书  
 
 ## Markdown 教程链接
